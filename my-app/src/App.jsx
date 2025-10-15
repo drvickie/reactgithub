@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <h1>A Demo App</h1>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -20,6 +21,9 @@ function App() {
       
       <p className="read-the-docs">
         This is a react demo for pushing to github.
+      </p>
+      <p className="read-the-docs">
+        This is a react demo app for hosting on firebase.
       </p>
     </>
   )
